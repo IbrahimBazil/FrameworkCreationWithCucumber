@@ -40,6 +40,7 @@ public static Logger log=LogManager.getLogger(base.class.getName());
 		signin.password().isDisplayed();
 		signin.login().isDisplayed();
 		log.info("Successfully validated All Fields in login Page");
+		log.info("Validation is completed");
 	}
 
 	@Test(dataProvider = "getData")

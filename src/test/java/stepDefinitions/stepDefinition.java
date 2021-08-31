@@ -84,6 +84,7 @@ public class stepDefinition extends base {
 		Thread.sleep(3000);
 		cp.seacrhbx().sendKeys("Selenium");
 		cp.searchLookup().click();
+		System.out.println("Testing");
 		Assert.assertTrue(cp.results().isDisplayed(), "Successfully Displayed");
 
 	}
