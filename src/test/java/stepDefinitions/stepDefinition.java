@@ -34,6 +34,8 @@ public class stepDefinition extends base {
 	public void lauch_the_url_something(String strArg1) throws Throwable {
 		// throw new PendingException();
 		driver.get("https://qaclickacademy.com/");
+		
+		System.out.println("Bazil");
 	}
 
 	@And("^Click on the Signin button$")
