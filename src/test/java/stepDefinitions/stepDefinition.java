@@ -88,6 +88,7 @@ public class stepDefinition extends base {
 		cp.searchLookup().click();
 		System.out.println("Testing");
 		Assert.assertTrue(cp.results().isDisplayed(), "Successfully Displayed");
+		System.out.println("Testing purpose");
 
 	}
 
