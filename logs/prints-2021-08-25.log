@@ -1,0 +1,6 @@
+16:21:49.519 [main] INFO  resources.browser - user_client
+16:21:49.700 [main] INFO  resources.browser - loginpage_submit_Test hasbeen Completed_Successfully
+16:21:58.560 [main] INFO  resources.browser - Driver is Initaialised
+16:21:58.562 [main] INFO  resources.browser - forgotpassword_Test hasbeen started
+16:22:02.973 [main] INFO  resources.browser - Validation completed Successfully for forgotpassword
+16:22:03.159 [main] INFO  resources.browser - forgotpassword_Test hasbeen Completed_Successfully

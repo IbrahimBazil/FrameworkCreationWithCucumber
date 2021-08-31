@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87172" started-at="2021-08-24T07:28:42 IST" finished-at="2021-08-24T07:30:10 IST">
+    <groups>
+    </groups>
+    <test name="HomePage" duration-ms="17194" started-at="2021-08-24T07:28:42 IST" finished-at="2021-08-24T07:29:00 IST">
+      <class name="bazil.FrameworkCreation.homePage">
+        <test-method status="PASS" signature="launchingBrowser()[pri:0, instance:bazil.FrameworkCreation.homePage@d737b89]" name="launchingBrowser" is-config="true" duration-ms="14791" started-at="2021-08-24T07:28:42 IST" finished-at="2021-08-24T07:28:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method status="PASS" signature="titleValidation()[pri:0, instance:bazil.FrameworkCreation.homePage@d737b89]" name="titleValidation" duration-ms="335" started-at="2021-08-24T07:28:57 IST" finished-at="2021-08-24T07:28:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:bazil.FrameworkCreation.homePage@d737b89]" name="terminate" is-config="true" duration-ms="163" started-at="2021-08-24T07:28:59 IST" finished-at="2021-08-24T07:29:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- bazil.FrameworkCreation.homePage -->
+    </test> <!-- HomePage -->
+    <test name="LoginPage" duration-ms="52196" started-at="2021-08-24T07:29:01 IST" finished-at="2021-08-24T07:29:53 IST">
+      <class name="bazil.FrameworkCreation.loginpage">
+        <test-method status="PASS" signature="launchingBrowser()[pri:0, instance:bazil.FrameworkCreation.loginpage@7fd50002]" name="launchingBrowser" is-config="true" duration-ms="15116" started-at="2021-08-24T07:29:01 IST" finished-at="2021-08-24T07:29:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method status="PASS" signature="loginpage_field_validation()[pri:0, instance:bazil.FrameworkCreation.loginpage@7fd50002]" name="loginpage_field_validation" duration-ms="4372" started-at="2021-08-24T07:29:16 IST" finished-at="2021-08-24T07:29:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage_field_validation -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:bazil.FrameworkCreation.loginpage@7fd50002]" name="terminate" is-config="true" duration-ms="167" started-at="2021-08-24T07:29:21 IST" finished-at="2021-08-24T07:29:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="launchingBrowser()[pri:0, instance:bazil.FrameworkCreation.loginpage@7fd50002]" name="launchingBrowser" is-config="true" duration-ms="10909" started-at="2021-08-24T07:29:21 IST" finished-at="2021-08-24T07:29:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method status="PASS" signature="loginpage_submit(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bazil.FrameworkCreation.loginpage@7fd50002]" name="loginpage_submit" duration-ms="4439" started-at="2021-08-24T07:29:32 IST" data-provider="getData" finished-at="2021-08-24T07:29:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ibrahimbazil@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hashim@3021]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User_Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage_submit -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:bazil.FrameworkCreation.loginpage@7fd50002]" name="terminate" is-config="true" duration-ms="151" started-at="2021-08-24T07:29:37 IST" finished-at="2021-08-24T07:29:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="launchingBrowser()[pri:0, instance:bazil.FrameworkCreation.loginpage@7fd50002]" name="launchingBrowser" is-config="true" duration-ms="10775" started-at="2021-08-24T07:29:37 IST" finished-at="2021-08-24T07:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method status="PASS" signature="loginpage_submit(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bazil.FrameworkCreation.loginpage@7fd50002]" name="loginpage_submit" duration-ms="4358" started-at="2021-08-24T07:29:48 IST" data-provider="getData" finished-at="2021-08-24T07:29:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user_client]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage_submit -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:bazil.FrameworkCreation.loginpage@7fd50002]" name="terminate" is-config="true" duration-ms="212" started-at="2021-08-24T07:29:53 IST" finished-at="2021-08-24T07:29:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- bazil.FrameworkCreation.loginpage -->
+    </test> <!-- LoginPage -->
+    <test name="forgotpassword" duration-ms="16647" started-at="2021-08-24T07:29:53 IST" finished-at="2021-08-24T07:30:10 IST">
+      <class name="bazil.FrameworkCreation.forgotpassword_test">
+        <test-method status="PASS" signature="launchingBrowser()[pri:0, instance:bazil.FrameworkCreation.forgotpassword_test@28dcca0c]" name="launchingBrowser" is-config="true" duration-ms="10453" started-at="2021-08-24T07:29:53 IST" finished-at="2021-08-24T07:30:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method status="PASS" signature="forgotpassword()[pri:0, instance:bazil.FrameworkCreation.forgotpassword_test@28dcca0c]" name="forgotpassword" duration-ms="5696" started-at="2021-08-24T07:30:03 IST" finished-at="2021-08-24T07:30:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpassword -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:bazil.FrameworkCreation.forgotpassword_test@28dcca0c]" name="terminate" is-config="true" duration-ms="155" started-at="2021-08-24T07:30:09 IST" finished-at="2021-08-24T07:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- bazil.FrameworkCreation.forgotpassword_test -->
+    </test> <!-- forgotpassword -->
+  </suite> <!-- Suite -->
+</testng-results>

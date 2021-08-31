@@ -1,0 +1,7 @@
+21:00:02.941 [TestNG-tests-2] INFO  resources.browser - User_Admin
+21:00:13.161 [TestNG-tests-2] INFO  resources.browser - Driver is Initaialised
+21:00:17.827 [TestNG-tests-2] INFO  resources.browser - user_client
+21:14:22.230 [TestNG-tests-1] INFO  resources.browser - Driver is Initaialised
+21:14:22.230 [TestNG-tests-2] INFO  resources.browser - Driver is Initaialised
+21:14:22.613 [TestNG-tests-1] INFO  resources.browser - Successfully validated the Title
+21:14:26.144 [TestNG-tests-2] INFO  resources.browser - Successfully validated All Fields in login Page
